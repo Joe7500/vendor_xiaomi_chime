@@ -148,6 +148,18 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+        name: "WfdService",
+        owner: "qcom/common",
+        apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        system_ext_specific: true,
+}
+
 dex_import {
 	name: "tcmclient",
 	owner: "xiaomi",
@@ -208,6 +220,12 @@ dex_import {
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
 	system_ext_specific: true,
+}
+
+dex_import {
+        name: "WfdCommon",
+        owner: "qcom/common",
+        jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
