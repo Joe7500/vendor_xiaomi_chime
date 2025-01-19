@@ -1035,9 +1035,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chime/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so
 
 # Irqbalance
-#PRODUCT_COPY_FILES += \
-#    vendor/xiaomi/chime/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-#    vendor/xiaomi/chime/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/chime/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
+    vendor/xiaomi/chime/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 # Adreno
 PRODUCT_COPY_FILES += \
