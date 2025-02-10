@@ -1032,7 +1032,8 @@ PRODUCT_COPY_FILES += \
 
 # Perf - required
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/chime/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so
+    vendor/xiaomi/chime/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so
 
 # Irqbalance
 PRODUCT_COPY_FILES += \
