@@ -289,3 +289,21 @@ install_symlink {
         symlink_target: "/system_ext/lib64/libwfdnative.so",
 }
 
+android_app_import {
+        name: "colorservice",
+        owner: "qcom/common",
+        apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        system_ext_specific: true,
+}
+
+dex_import {
+        name: "com.qti.snapdragon.sdk.display",
+        owner: "qcom/common",
+        jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
+        product_specific: true,
+}
+
