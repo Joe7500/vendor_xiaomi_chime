@@ -548,12 +548,15 @@ PRODUCT_PACKAGES += \
     libOmxAmrwbplusDec \
     libOmxApeDec \
     libOmxApeDecSw \
+    libOmxCore \
     libOmxEvrcDec \
     libOmxG711Dec \
     libOmxMpeghEncSw \
     libOmxQcelp13Dec \
     libOmxSwVdec \
     libOmxSwVencMpeg4 \
+    libOmxVdec \
+    libOmxVenc \
     libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
