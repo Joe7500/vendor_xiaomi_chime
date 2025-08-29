@@ -1501,6 +1501,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chime/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so
 
+    PRODUCT_COPY_FILES += \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/libhidlbase_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase_shim.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib/libhidlbase_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase_shim.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
+
 # WFD
 PRODUCT_PACKAGES += \
     WfdService \
