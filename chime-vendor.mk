@@ -622,8 +622,6 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libofflinelog \
     libopencv \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libqcbor \
     libqcci_legacy \
     libqcmaputils \
